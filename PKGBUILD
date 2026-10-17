@@ -1,3 +1,4 @@
+# Maintainer: Midnight Doggo (https://github.com/midnightdoggo19)
 pkgname=locusts
 pkgver=0.1
 pkgrel=1
@@ -20,4 +21,4 @@ package() {
   install -Dm644 README "$pkgdir/usr/share/doc/$pkgname/README.md"
 }
 
-sha256sums=("SKIP") # TODO: update automatically
+sha256sums=('be6f405a87fa3823d897638147c39ff49c1d87faac1c799d3b4ce17271765cfa')
